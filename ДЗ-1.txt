@@ -1,10 +1,9 @@
-	
-int unit = 5, man = 2, many = 100;
+int lats = 5, helmet = 2, shield = 25;
 
-float lineLength = 2.4f, version = 3.0f;
+float swordDamage = 2.4f, axeDamage = 3.0f;
 
-bool answer, white;
+bool causedDamage, TheyHitUs;
 
-string name = "Max"; number = "one";
+string name = "Max"; race = "human";
 
-double mass = 5.0;
+double FullProtectionWeight = 5.0;
