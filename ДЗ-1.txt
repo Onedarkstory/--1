@@ -1,0 +1,10 @@
+	
+int unit = 5, man = 2, many = 100;
+
+float lineLength = 2.4f, version = 3.0f;
+
+bool answer, white;
+
+string name = "Max"; number = "one";
+
+double mass = 5.0;
