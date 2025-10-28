@@ -1,15 +1,23 @@
-int numberOfTrees = 1;
-int numberOfApples = 2; 
-int numberOfLumberjacks = 2;
+using System;
 
-float axeCuttingSpeed = 2.4f;
-float cuttingSpeedWithASaw = 3.0f;
+class Program
+{
+    static void Main()
+    {
+        int treeCount = 1;
+        int appleCount = 2; 
+        int lumberjackCount = 2;
 
-bool mowedDownWithAnAxe;
-bool beveledWithASaw;
+        float axeCuttingSpeed = 2.4f;
+        float sawCuttingSpeed = 3.0f;
 
-string theNameOfTheFirstWoodcutter = "Max"; 
-string theNameOfTheSecondWoodcutter = "Mo";
+        bool isCutWithAxe = true;
+        bool isCutWithSaw = false;
 
-double HowManyMetersWereCutDown = 5.0;
+        string firstWoodcutterName = "Max"; 
+        string secondWoodcutterName = "Mo";
+
+        double metersCutDown = 5.0;
+    }
+}
 
