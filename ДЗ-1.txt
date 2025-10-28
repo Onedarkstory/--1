@@ -1,9 +1,15 @@
-int lats = 5, helmet = 2, shield = 25;
+int numberOfTrees = 1;
+int numberOfApples = 2; 
+int numberOfLumberjacks = 2;
 
-float swordDamage = 2.4f, axeDamage = 3.0f;
+float axeCuttingSpeed = 2.4f;
+float cuttingSpeedWithASaw = 3.0f;
 
-bool causedDamage, TheyHitUs;
+bool mowedDownWithAnAxe;
+bool beveledWithASaw;
 
-string name = "Max"; race = "human";
+string theNameOfTheFirstWoodcutter = "Max"; 
+string theNameOfTheSecondWoodcutter = "Mo";
 
-double FullProtectionWeight = 5.0;
+double HowManyMetersWereCutDown = 5.0;
+
